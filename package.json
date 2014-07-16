@@ -2,7 +2,7 @@
   "name": "kaomozi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main" : "./lib/kaomozi.js",
   "directories": {
     "test": "test"
   },
@@ -11,5 +11,4 @@
   },
   "author": "Yuta Hiroto",
   "license": "MIT",
-  "main" : "./lib/kaomozi.js"
 }
