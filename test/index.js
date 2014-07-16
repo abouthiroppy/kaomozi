@@ -3,6 +3,7 @@
 
   //Records
   ///////////////////////////////////////////////
+  //{filter:"aa",since:1351567940,include_created_at:true}
   kaomozi.records({},function(err,data){
     console.log(data);
   });
