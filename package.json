@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "./lib/kaomozi.js",
-  "directories": {
-    "test": "test"
+  "engines": {
+    "node_js": "v0.10.17"
   },
   "scripts": {
     "test": "mocha --timeout 15000 --reporter list ./test/index.js"
