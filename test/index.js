@@ -1,9 +1,24 @@
 (function() {
   var kaomozi = require('../lib/kaomozi');
-  var records = kaomozi.records({filter:"aa",since:1351567940,include_created_at:true});
-  var record  = kaomozi.record(1);
-  var random  = kaomozi.random();
 
-  // console.log(record);
+  //Records
+  ///////////////////////////////////////////////
+  kaomozi.records({},function(err,data){
+    console.log(data);
+  });
+  ///////////////////////////////////////////////
 
+  //Record
+  ///////////////////////////////////////////////
+  kaomozi.record(1111,function(err,data){
+    console.log(data);
+  });
+  ///////////////////////////////////////////////
+
+  //Random
+  ///////////////////////////////////////////////
+  kaomozi.random(function(err,data){
+    console.log(data);
+  });
+  ///////////////////////////////////////////////
 })();
